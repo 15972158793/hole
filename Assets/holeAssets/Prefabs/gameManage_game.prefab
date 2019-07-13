@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1649494087344958}
+  m_IsPrefabParent: 1
+--- !u!1 &1649494087344958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4422115423099108}
+  - component: {fileID: 114122675560036414}
+  - component: {fileID: 114499920818697124}
+  - component: {fileID: 114277363408540132}
+  - component: {fileID: 82412484571125172}
+  m_Layer: 0
+  m_Name: gameManage_game
+  m_TagString: gameManage
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4422115423099108
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1649494087344958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.769684, y: -2.2109375, z: 13.852661}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82412484571125172
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1649494087344958}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114122675560036414
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1649494087344958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf9ed0317113b74697c935cd64a94ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  scoreAddCount: 01000000020000000300000004000000050000000600000007000000
+  scoreAddEnemyCount: 030000000500000007000000090000000c0000000f00000014000000
+  scoreLevelCount: 040000001800000046000000b4000000540100001c0200000c030000
+  cameraField:
+  - 13
+  - 13.4
+  - 14
+  - 17.8
+  - 25
+  - 28
+  - 40
+  scaleNum:
+  - 3
+  - 4.4
+  - 6
+  - 8
+  - 14
+  - 18
+  - 25
+  - 51
+  timeShowText: {fileID: 0}
+  timeGame: 120
+  gameOverUI: {fileID: 0}
+  enemyCount: 7
+  enemyName:
+  - Risen
+  - "\u5357\u74DC\u5C11\u4FA0"
+  - "\u5C0F\u5200\u30E1\u7206\u5934  "
+  - "\u5F11\u5FF5\u30F3\u51CC\u9F99  "
+  - "\u75BE\u5F71\uFF20\u5929\u9F99  "
+  - "\u5371\u9669\u7537\u7235  "
+  - "\u66A7\u6627\uFF0C\u6EDA\u8FB9\u53BB\uFF01  "
+  - "\u9B51\u9B45\u65CB\u98CE  "
+  - "\u65E0\u6CE3\u4E4B\u9B42  "
+  - "\u653E\u5F00\u90A3\u4F4D\u5927\u5A76  "
+  - "\u5E05\u7C91\u7C91  "
+  - "\u79C0\u98DC\u5168\u573A"
+  - "\u534A\u795E\u8D4Ede\u6B87  "
+  - "\u7237\u2198\u70B9\u706D\u5168\u670D   "
+  - "\u535F\u8D25\u795E\u8BDD   "
+  - "Fc.\u7237\u4E3F\u4E13\u5C5E "
+  - "\u32A3\u7248\u9171\u6CB9\u7537  "
+  - "\u5410\u4F60\u4E00\u8138\u53E3\u6C34  "
+  - "\u5C0F\u751F\u8FD9\u53A2\u6709\u793C\u4E86\u4E3F  "
+  - "\u6402\u732B\u7761\u89C9\u7684\u9C7C  "
+  - "\u9913\u6B7B\u7684\u5154\u5B50  "
+  - "\u62FC\u6B7B\u62A4\u83CA\u82B1   "
+  - "\u5B5F\u5A46\u3001\u6765\u7897\u8C46\u6D46    "
+  - "\u8D2B\u50E7\u2198\u662F\u6765\u5316\u599E\u7684  "
+  - "\u83CA\u82B1\u5F53\u5E74\u662F\u6735\u82B1  "
+  createEnemyAgainCD: 5
+  timeLastUI: {fileID: 0}
+--- !u!114 &114277363408540132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1649494087344958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f546621c12e9dc4f9e3927b7ff075c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114499920818697124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1649494087344958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52c48f82db21604389cd504d3689af5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  bestScoreText: {fileID: 0}
+  score: 0
